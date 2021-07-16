@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+
     <!-- link to connect stylesheet page -->
     <link rel="stylesheet" href="/source/css/styles.css" />
   </head>
   <body>
+    <script src="./source/js/typed.js"></script>
     <!-- home screen -->
     <section id="home-section">
       <div class="home"></div>
@@ -45,10 +47,22 @@
         </div>
       </div>
       <div class="home-fixed">
-        <div class="whoiam">who i am</div>
-        <br /><br /><br />
-        <h1>I'm Ajay</h1>
+        <div class="whoiam" style="letter-spacing: 2px">who i am</div>
+        <br /><br /><br /><br />
+        <h1 style="letter-spacing: 3px">I'm Ajay</h1>
+        <span class="animate"></span>
       </div>
     </section>
+    <script src="./source/js/typed.js"></script>
+    <script>
+      var typed = new Typed(".animate", {
+        strings: ["Mobile Developer", "Web Developer"],
+        smartBackspace: true, // Default value
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+        showCursor: false,
+      });
+    </script>
   </body>
 </html>
