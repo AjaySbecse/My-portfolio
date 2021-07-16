@@ -13,8 +13,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: opacity 1s ease-out;
 }
-
+.home:hover {
+  opacity: 0.2;
+}
 .home-fixed {
   width: 100%;
   background-attachment: fixed;
@@ -40,4 +43,37 @@ body {
 .home-fixed h1 {
   font-size: 42px;
   text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+}
+
+.logo,
+.nav-items,
+.social-icons {
+  width: 30%;
+  text-align: center;
+  margin: 0px 100px;
+}
+.nav-items ul {
+  display: flex;
+  margin: 0px;
+}
+.nav-items a {
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.nav-items li {
+  list-style-type: none;
+}
+.social-icons a img {
+  width: 14px;
+  height: 14px;
+  margin: 0px 5px;
+}
+.social-icons a {
+  text-decoration: none;
 }
