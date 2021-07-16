@@ -49,30 +49,48 @@ body {
   display: flex;
   height: 50px;
   line-height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(236, 233, 233, 0.37);
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(122, 110, 110);
 }
 
-.logo,
-.nav-items,
-.social-icons {
+.logo {
   width: 30%;
   text-align: center;
-  margin: 0px 100px;
 }
+.nav-items {
+  width: 50%;
+  text-align: center;
+}
+.social-icons {
+  width: 20%;
+  text-align: center;
+  color: rgb(122, 110, 110);
+}
+
 .nav-items ul {
   display: flex;
-  margin: 0px;
+  margin: 0px auto;
 }
 .nav-items a {
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 5px 15px;
+  color: rgb(122, 110, 110);
 }
+
 .nav-items li {
   list-style-type: none;
 }
 .social-icons a img {
   width: 14px;
   height: 14px;
-  margin: 0px 5px;
+  margin: 0px 10px;
 }
 .social-icons a {
   text-decoration: none;
