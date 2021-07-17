@@ -178,7 +178,7 @@ body {
 .about-category {
   width: 100%;
   height: 25%;
-  background-color: steelblue;
+  background-color: #d4c9c9;
 }
 .display-name {
   width: 300px;
@@ -220,13 +220,31 @@ body {
 .contact table td {
   padding: 5px 20px;
   font-size: 14px;
+  font-weight: 300px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.contact table td::before {
-  padding-right: 10px;
-  font-family: "FontAwesome ";
+.contact table i {
+  margin-right: 10px;
+  font-size: 10px;
 }
-
-#phone::before {
-  content: "\f015";
+.about-category {
+  display: flex;
+}
+.about-items {
+  width: 33%;
+  background-color: white;
+  margin-right: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-items i {
+  font-size: 30px;
+  /* font-weight: 200px; */
+  color: rgb(122, 120, 120);
+}
+.about-items p {
+  letter-spacing: 2px;
+  font-family: sans-serif;
 }
