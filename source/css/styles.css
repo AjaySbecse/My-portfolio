@@ -156,7 +156,7 @@ body {
 .about-left {
   height: 75%;
   width: 50%;
-  background-color: rgb(185, 185, 185);
+  background-color: #f0f0f0;
   position: relative;
 }
 .about-right {
@@ -259,6 +259,22 @@ body {
   justify-content: center;
   padding: 100px 0;
   background-color: #111;
+}
+.educational-title {
+  /* height: 100px; */
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.educational-title h1 {
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 50px;
+  font-size: 35px;
+  padding-bottom: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .timeline {
