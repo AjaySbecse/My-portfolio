@@ -277,6 +277,11 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.fa-graduation-cap {
+  font-size: 15px;
+  color: rgb(122, 120, 120);
+}
+
 .timeline {
   width: 80%;
   height: auto;
