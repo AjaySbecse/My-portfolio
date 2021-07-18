@@ -373,3 +373,31 @@ body {
     background-color: aqua;
   }
 }
+
+/* skill section starts */
+.skills {
+  width: 100vw;
+  height: 100vh;
+  background-color: blanchedalmond;
+}
+.educational-title {
+  /* height: 100px; */
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.skill-title h1 {
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 50px;
+  font-size: 35px;
+  padding-bottom: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.fa-magic {
+  font-size: 13px;
+  color: rgb(122, 120, 120);
+}
