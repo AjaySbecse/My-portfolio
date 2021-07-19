@@ -378,7 +378,6 @@ body {
 .skills {
   width: 100vw;
   height: 100vh;
-  background-color: blanchedalmond;
 }
 .educational-title {
   /* height: 100px; */
@@ -396,8 +395,50 @@ body {
   padding-bottom: 50px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+.sub-icon-holder {
+  font-size: 13px;
+  color: rgb(122, 120, 120);
+}
 .fa-magic {
   font-size: 13px;
   color: rgb(122, 120, 120);
+}
+.skills {
+  display: flex;
+  justify-content: center;
+}
+.left-skills {
+  width: 40%;
+  height: 100%;
+  background-color: aquamarine;
+  padding: 10px 30px;
+}
+.right-skills {
+  width: 40%;
+  height: 100%;
+  background-color: bisque;
+}
+.skill-name {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-block;
+}
+.skill-percentage {
+  font-size: 12px;
+}
+.progress-bar-holder {
+  width: 90%;
+  height: 15px;
+  background-color: #f3eaead5;
+  border: 1px solid #b1adadd5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.progress-line {
+  width: 90%;
+  height: 2px;
+  background-color: black;
+  margin-left: 5px;
 }
