@@ -377,9 +377,9 @@ body {
 /* skill section starts */
 .skills {
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
 }
-.educational-title {
+.skill-title {
   /* height: 100px; */
   width: 100%;
   background-color: #f0f0f0;
@@ -410,13 +410,12 @@ body {
 .left-skills {
   width: 40%;
   height: 100%;
-  background-color: aquamarine;
   padding: 10px 30px;
 }
 .right-skills {
   width: 40%;
   height: 100%;
-  background-color: bisque;
+  padding: 10px 30px;
 }
 .particular-skill {
   margin-bottom: 20px;
@@ -427,17 +426,19 @@ body {
 .skill-name {
   text-transform: uppercase;
   font-size: 14px;
+  /* font-weight: bold; */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: inline-block;
   letter-spacing: 1px;
 }
 .skill-percentage {
   font-size: 11px;
+  font-weight: bold;
 }
 .progress-bar-holder {
   height: 15px;
-  background-color: #f3eaead5;
-  border: 1px solid #b1adadd5;
+  background-color: #fcf9f9d5;
+  border: 1px solid #ebe8e8d5;
   display: flex;
   flex-direction: row;
   align-items: center;
