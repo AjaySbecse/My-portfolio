@@ -418,14 +418,21 @@ body {
   height: 100%;
   background-color: bisque;
 }
+.particular-skill {
+  margin-bottom: 20px;
+}
+.particular-skill:last-child {
+  margin-bottom: 0px;
+}
 .skill-name {
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 14px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: inline-block;
+  letter-spacing: 1px;
 }
 .skill-percentage {
-  font-size: 12px;
+  font-size: 11px;
 }
 .progress-bar-holder {
   height: 15px;
