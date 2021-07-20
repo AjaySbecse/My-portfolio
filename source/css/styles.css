@@ -449,3 +449,7 @@ body {
   background-color: black;
   margin-left: 5px;
 }
+/* Adding Parallex effect  */
+.parallex {
+  background: url("../image/parallex-image.jpg") repeat fixed 100%;
+}
