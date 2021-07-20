@@ -451,5 +451,34 @@ body {
 }
 /* Adding Parallex effect  */
 .parallex {
-  background: url("../image/parallex-image.jpg") repeat fixed 100%;
+  background: url("../image/parallex-image.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.parallex {
+  padding: 20px 0px;
+}
+
+.parallex-inner {
+  margin: 0px auto;
+  width: 230px;
+  text-align: center;
+  /* padding: 3px; */
+  border: 3px solid white;
+  transition: 0.8s;
+}
+.parallex-inner h1 {
+  font-size: 13px;
+  padding: 10px 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: bolder;
+}
+.parallex-inner:hover {
+  background-color: white;
+}
+.parallex-inner:hover > #download-resume {
+  color: black;
 }
