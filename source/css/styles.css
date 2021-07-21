@@ -505,3 +505,14 @@ body {
   height: 100vh;
   background-color: aquamarine;
 }
+.portfolio-container {
+  width: 80%;
+  height: 100%;
+  background-color: red;
+  margin: 0px auto;
+}
+portfolio-project {
+  width: 300px;
+  height: 250px;
+  background-color: bisque;
+}
