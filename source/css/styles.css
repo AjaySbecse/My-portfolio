@@ -563,6 +563,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .project-code > i {
   font-size: 21px;
   color: black;
@@ -583,6 +584,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.8s;
 }
 .project-link:hover {
+  background-color: white;
+  border: 1px solid grey;
+}
+.project-code:hover {
+  background-color: white;
+  border: 1px solid grey;
+}
+.portfolio-project > a {
+  display: none;
+}
+.portfolio-project:hover > .project-icons {
+  display: inline-block;
 }
