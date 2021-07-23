@@ -503,7 +503,6 @@ body {
 }
 .portfolio {
   width: 100vw;
-  height: 100vh;
   /* background-color: aquamarine; */
 }
 .portfolio-container {
@@ -606,3 +605,34 @@ body {
 .project-2 .project-image {
   background-image: url(../image/project2.png);
 }
+
+.contact-button-container {
+  width: 100vw;
+  height: 400px;
+  background-color: rgb(46, 44, 44);
+  margin: 50px 0px;
+  display: flex;
+  align-items: center;
+}
+.contact-holder {
+  width: 70%;
+  margin: 0px auto;
+  text-align: center;
+}
+.contact-holder > i {
+  color: white;
+  font-size: 150px;
+  margin-bottom: 50px;
+}
+.contact-holder > h1 {
+  color: white;
+}
+.contact-holder > button {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
