@@ -85,7 +85,7 @@ body {
 }
 
 .logo {
-  width: 30%;
+  width: 25%;
   text-align: center;
 }
 .logo a {
@@ -97,13 +97,14 @@ body {
   text-align: center;
 }
 .social-icons {
-  width: 20%;
+  width: 25%;
   text-align: center;
 }
 
 .nav-items ul {
   display: flex;
   margin: 0px auto;
+  justify-content: center;
 }
 .nav-items a {
   text-decoration: none;
@@ -562,6 +563,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.8s;
 }
 
 .project-code > i {
@@ -597,6 +599,10 @@ body {
 .portfolio-project > a {
   display: none;
 }
+
 .portfolio-project:hover > .project-icons {
   display: inline-block;
+}
+.project-2 .project-image {
+  background-image: url(../image/project2.png);
 }
