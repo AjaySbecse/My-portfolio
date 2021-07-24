@@ -637,3 +637,21 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
 }
+.getInTouch {
+  width: 100vw;
+}
+.getintouch-holder {
+  width: 80%;
+  height: 500px;
+  background-color: red;
+  margin: 0px auto;
+  padding-top: 10px;
+  text-align: center;
+}
+.getintouch-holder h1 {
+  letter-spacing: 1.5px;
+  font-size: 45px;
+}
+.getintouch-holder p {
+  font-weight: bold;
+}
