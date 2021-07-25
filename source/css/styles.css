@@ -471,6 +471,7 @@ body {
   margin: 0px auto;
   width: 230px;
   text-align: center;
+  cursor: pointer;
   /* padding: 3px; */
   border: 3px solid white;
   transition: 0.8s;
