@@ -639,6 +639,8 @@ body {
 }
 .getInTouch {
   width: 100vw;
+
+  background-color: rgb(233, 231, 231);
 }
 .getintouch-holder {
   width: 80%;
