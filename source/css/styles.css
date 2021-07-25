@@ -133,7 +133,14 @@ body {
   transition: color 1s;
   color: black;
 }
-
+.active {
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+.active a {
+  color: black;
+}
 .animate {
   font-size: 20px;
   letter-spacing: 2px;

@@ -13,3 +13,27 @@ var typed = new Typed(".animate", {
       var navBar = document.querySelector(".nav");
       navBar.classList.toggle("sticky",window.scrollY > 0);
   })
+
+
+//   The following code is for highlighting the nav item when scrolling the webpage on the section
+
+const sections = document.querySelectorAll("section");
+const navLists = document.querySelectorAll(".nav-items ul li")
+console.log(sections,navLists)
+
+window.addEventListener('scroll',()=>{
+    let current = '';
+    sections.forEach(section =>{
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if(pageYOffset >= sectionTop){
+            current = section.getAttribute('id');
+        }
+    })
+    navLists.forEach(li=>{
+        li.classList.remove('active')
+        if(li.classList.contains(current)){
+            li.classList.add('active')
+        }
+    })
+})
