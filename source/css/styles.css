@@ -103,6 +103,9 @@ body {
   width: 25%;
   text-align: center;
 }
+.mobile-nav {
+  display: none;
+}
 
 .nav-items ul {
   display: flex;
