@@ -371,17 +371,27 @@
         <div class="getintouch-holder">
           <h1>Get In touch!</h1>
           <p>Let's work together</p>
-          <form action="#" id="contact-msg">
+          <form
+            action="https://formsubmit.co/801b3f4c9743b8e1ffe3f50223bdc75c"
+            method="POST"
+            id="contact-msg"
+          >
             <h4>Contact form</h4>
             <label for="name">Name</label><br />
-            <input type="text" id="name" required /><br />
+            <input type="text" id="name" name="name" required /><br />
             <label for="email">Email</label><br />
-            <input type="email" id="email" required /><br />
+            <input type="email" id="email" name="email" required /><br />
             <label for="phone">Phone</label><br />
-            <input type="text" id="phone" required /><br />
+            <input type="text" id="phone" name="phone" required /><br />
             <label for="msg">Message</label><br />
-            <textarea name="message" id="msg" cols="30" rows="10"></textarea>
-            <button>Send Message</button>
+            <textarea
+              name="message"
+              id="msg"
+              cols="30"
+              rows="10"
+              name="message"
+            ></textarea>
+            <button type="submit">Send Message</button>
           </form>
         </div>
       </div>
