@@ -706,6 +706,7 @@ body {
   background-color: rgb(250, 245, 245);
   border-radius: 7px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 10px;
 }
 #contact-msg button {
   padding: 10px 20px;
