@@ -134,6 +134,10 @@ body {
   height: 20px;
   font-size: 18px;
   margin: 0px 8px;
+  color: rgb(122, 110, 110);
+  transition: 0.4s;
+}
+.social-icons a i:hover {
   color: black;
 }
 .social-icons a {
