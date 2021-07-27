@@ -74,9 +74,21 @@ body {
     text-decoration: underline;
     text-underline-offset: 8px;
   }
+  .mobile-social-icons {
+    display: flex;
+    justify-content: center;
+  }
   .mobile-social-icons a i {
     width: 14px;
     height: 14px;
-    margin: 0px 10px;
+    /* margin-right: 50px; */
+    color: white;
+    font-size: 25px;
+  }
+  .mobile-social-icons a {
+    margin-right: 50px;
+  }
+  .mobile-social-icons a:last-child {
+    margin-right: 0px;
   }
 }
