@@ -20,7 +20,7 @@ var typed = new Typed(".animate", {
 const sections = document.querySelectorAll("section");
 const navLists = document.querySelectorAll(".nav-items ul li")
 const mobNavLists = document.querySelectorAll(".mobile-links ul li")
-console.log(sections,navLists,mobNavLists)
+
 
 window.addEventListener('scroll',()=>{
     let current = '';
@@ -53,8 +53,8 @@ var isNavOpen = false;
 function openNav(){
     isNavOpen = (isNavOpen)? false:true;
     
-    console.log(isNavOpen)
-    if(isNavOpen == true){
+    console.log(window.innerWidth)
+    if(isNavOpen == true && window.innerWidth <= 850){
        let icon = document.getElementById("hambur");
        icon.classList.remove("fa-bars")
        icon.classList.add("fa-times")
@@ -67,3 +67,22 @@ function openNav(){
         document.getElementById("mobile-nav-content").style.display = "none"
     }
 }
+
+const allSection = document.querySelector(".home-section")
+console.log(allSection)
+
+allSection.addEventListener('click',function (){
+    console.log("i am event listerner")
+    isNavOpen = false;
+    openNav();
+})
+// when the mobile nav is open then we increase the width it will work
+window.addEventListener('resize', ()=>{
+    if(window.innerWidth >= 850){
+        isNavOpen = false
+        let icon = document.getElementById("hambur");
+        icon.classList.remove("fa-times")
+        icon.classList.add("fa-bars")
+        document.getElementById("mobile-nav-content").style.display = "none"
+    }
+});

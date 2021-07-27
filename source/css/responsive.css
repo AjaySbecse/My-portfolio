@@ -53,6 +53,7 @@ body {
     background-color: black;
     z-index: 10;
     padding-top: 140px;
+    display: none;
   }
   .mobile-links ul {
     display: flex;

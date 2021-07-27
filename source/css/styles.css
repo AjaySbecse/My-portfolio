@@ -106,6 +106,9 @@ body {
 .mobile-nav {
   display: none;
 }
+.mobile-nav-container {
+  display: none;
+}
 
 .nav-items ul {
   display: flex;
