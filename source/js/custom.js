@@ -46,3 +46,24 @@ window.addEventListener('scroll',()=>{
         }
     })
 })
+
+
+// When i click the hamburger the following line will execute
+var isNavOpen = false;
+function openNav(){
+    isNavOpen = (isNavOpen)? false:true;
+    
+    console.log(isNavOpen)
+    if(isNavOpen == true){
+       let icon = document.getElementById("hambur");
+       icon.classList.remove("fa-bars")
+       icon.classList.add("fa-times")
+       document.getElementById("mobile-nav-content").style.display = "block"
+    }
+    if(isNavOpen == false){
+        let icon = document.getElementById("hambur");
+        icon.classList.remove("fa-times")
+        icon.classList.add("fa-bars")
+        document.getElementById("mobile-nav-content").style.display = "none"
+    }
+}
