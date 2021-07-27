@@ -19,7 +19,8 @@ var typed = new Typed(".animate", {
 
 const sections = document.querySelectorAll("section");
 const navLists = document.querySelectorAll(".nav-items ul li")
-console.log(sections,navLists)
+const mobNavLists = document.querySelectorAll(".mobile-links ul li")
+console.log(sections,navLists,mobNavLists)
 
 window.addEventListener('scroll',()=>{
     let current = '';
@@ -31,6 +32,14 @@ window.addEventListener('scroll',()=>{
         }
     })
     navLists.forEach(li=>{
+        li.classList.remove('active')
+        if(li.classList.contains(current)){
+            li.classList.add('active')
+        }
+    })
+
+    // this is for mobile screen
+    mobNavLists.forEach(li=>{
         li.classList.remove('active')
         if(li.classList.contains(current)){
             li.classList.add('active')
