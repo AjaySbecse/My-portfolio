@@ -10,7 +10,7 @@ body {
 }
 .home {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-image: url(../image/home-image.jpg);
   opacity: 0.3;
   background-color: #868080;
@@ -170,8 +170,9 @@ body {
 /* Css for about page */
 
 .about-page {
-  height: 100vh;
-  width: 100vw;
+  /* height: 100vh; */
+  height: 800px;
+  width: 100%;
   /* background-color: gray; */
   display: flex;
   flex-wrap: wrap;
@@ -275,7 +276,7 @@ body {
 /* Education section */
 
 #education {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 100%;
   display: flex;
   align-items: center;
@@ -399,7 +400,7 @@ body {
 
 /* skill section starts */
 .skills {
-  width: 100vw;
+  width: 100%;
   height: 70vh;
 }
 .skill-title {
@@ -525,7 +526,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .portfolio {
-  width: 100vw;
+  width: 100%;
   /* background-color: aquamarine; */
 }
 .portfolio-container {
@@ -630,7 +631,7 @@ body {
 }
 
 .contact-button-container {
-  width: 100vw;
+  width: 100%;
   height: 400px;
   background-color: rgb(46, 44, 44);
   margin: 50px 0px;
@@ -661,7 +662,7 @@ body {
   letter-spacing: 1px;
 }
 .getInTouch {
-  width: 100vw;
+  width: 100%;
 
   background-color: rgb(233, 231, 231);
 }

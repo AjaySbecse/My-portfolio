@@ -92,4 +92,52 @@ body {
   .mobile-social-icons a:last-child {
     margin-right: 0px;
   }
+  /* From here onward it will be aplicable for the about section */
+  .about-page {
+    display: block;
+    height: 1100px;
+  }
+  .about-left {
+    height: 300px;
+    width: 100%;
+  }
+  .about-right {
+    width: 100%;
+    height: 550px;
+  }
+  .intro {
+    height: 350px;
+  }
+  .contact {
+    height: 170px;
+  }
+  .about-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+  }
+  .about-items {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .about-items i {
+    font-size: 20px;
+  }
+  .about-items p {
+    font-size: 12px;
+  }
+  .skills {
+    height: 1000px;
+    display: block;
+  }
+  .left-skills {
+    height: 500px;
+    width: 100%;
+  }
+  .right-skills {
+    height: 500px;
+    width: 100%;
+  }
 }
