@@ -126,10 +126,12 @@ body {
 .nav-items li {
   list-style-type: none;
 }
-.social-icons a img {
-  width: 14px;
-  height: 14px;
-  margin: 0px 10px;
+.social-icons a i {
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  margin: 0px 8px;
+  color: black;
 }
 .social-icons a {
   text-decoration: none;
