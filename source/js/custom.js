@@ -67,7 +67,23 @@ function openNav(){
         document.getElementById("mobile-nav-content").style.display = "none"
     }
 }
+function closeNav(){
+    console.log("Damn good")
+    isNavOpen = false;
+    if(isNavOpen == true && window.innerWidth <= 850){
+        let icon = document.getElementById("hambur");
+        icon.classList.remove("fa-bars")
+        icon.classList.add("fa-times")
+        document.getElementById("mobile-nav-content").style.display = "block"
+     }
+     if(isNavOpen == false){
+         let icon = document.getElementById("hambur");
+         icon.classList.remove("fa-times")
+         icon.classList.add("fa-bars")
+         document.getElementById("mobile-nav-content").style.display = "none"
+     }
 
+}
 const allSection = document.querySelector(".home-section")
 console.log(allSection)
 
