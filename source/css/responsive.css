@@ -140,4 +140,35 @@ body {
     height: 500px;
     width: 100%;
   }
+  @media only screen and (max-width: 500px) {
+    .about-right {
+      height: 600px;
+    }
+    .intro {
+      height: 400px;
+    }
+  }
+  @media only screen and (max-width: 430px) {
+    #contact-msg {
+      width: 100%;
+    }
+    .mobile-nav {
+      right: 50;
+    }
+
+    .about-right {
+      height: 700px;
+    }
+    .intro {
+      height: 500px;
+    }
+    .intro p {
+      margin-right: 10px;
+    }
+    .about-page {
+      height: 1300px;
+    }
+    .contact-holder i {
+    }
+  }
 }
