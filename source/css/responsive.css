@@ -169,6 +169,20 @@ body {
       height: 1300px;
     }
     .contact-holder i {
+      font-size: 100px;
+    }
+    .contact-holder h1 {
+      font-size: 20px;
+      letter-spacing: 1px;
+      line-height: 2;
+    }
+    .getintouch-holder h1 {
+      font-size: 30px;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .contact table {
+      margin-left: 0px;
     }
   }
 }
