@@ -1,3 +1,4 @@
+
 // auto type in home section
 var typed = new Typed(".animate", {
     strings: ["Mobile Developer", "Web Developer"],
