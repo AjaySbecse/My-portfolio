@@ -59,6 +59,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 0px;
   }
   .mobile-links ul li {
     margin-bottom: 40px;
@@ -149,8 +150,11 @@ body {
     }
   }
   @media only screen and (max-width: 460px) {
-    .contact table {
-      margin-left: 0px;
+    .contact table tbody tr td {
+      font-size: 11px;
+    }
+    #contact-msg {
+      width: 350px;
     }
   }
   @media only screen and (max-width: 430px) {
@@ -161,14 +165,6 @@ body {
       right: 50;
     }
 
-    .contact table {
-      margin-left: 0px;
-      /* font-size: 12px; */
-    }
-    .contact table tbody tr td {
-      font-size: 11px;
-    }
-
     .about-right {
       height: 700px;
     }
@@ -177,10 +173,6 @@ body {
     }
     .intro p {
       margin-right: 10px;
-    }
-    .about-category {
-      height: 350px;
-      margin-top: 20px;
     }
     .about-page {
       height: 1300px;
