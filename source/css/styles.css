@@ -508,6 +508,12 @@ body {
   color: black;
 }
 
+#download-resume-a {
+  text-decoration: none;
+}
+#download-resume-a:hover {
+  text-decoration: none;
+}
 /* Portfolio begins */
 .portfolio-title {
   /* height: 100px; */
