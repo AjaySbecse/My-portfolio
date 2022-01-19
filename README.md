@@ -6,5 +6,9 @@ By referening this website you may get to know about me and the projects i have 
 Absolutely Yes, The main objective of creating this site just to showcase my talent and collaborate with many projects. You can directly contact me using the forum which I have placed in the bottom of the 
 website. 
 
+## Website is live now!!!!
+1. GitHub page - https://ajaysbecse.github.io/My-portfolio/
+2. 000webhost - https://iamajay.000webhostapp.com/
+
 ## My favourite Quote
 > If Opportunity doesn't Knock, build a door. -Milton Berle
