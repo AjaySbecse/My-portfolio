@@ -570,6 +570,21 @@
     <script>
       AOS.init();
     </script>
-    <script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.localzoho.com/widget?wc=siqd56a188b6c92addea8ee41d911fba548aeddbf137dae6afc6fb69a32850ad126" defer></script>
+    <script type = "text/javascript" id = "zsiqchat">
+	var $zoho = $zoho || {};
+	$zoho.salesiq = $zoho.salesiq || {
+		widgetcode: "siqd56a188b6c92addea8ee41d911fba548aeddbf137dae6afc6fb69a32850ad126",
+		values: {},
+		ready: function(){}
+	};
+	var d = document;
+	s = d.createElement("script");
+	s.type = "text/javascript";
+	s.id = "zsiqscript";
+	s.defer = true;
+	s.src = "https://salesiq.localzoho.com/widget";
+	t = d.getElementsByTagName("script")[0];
+	t.parentNode.insertBefore(s, t);
+</script>
   </body>
 </html>
